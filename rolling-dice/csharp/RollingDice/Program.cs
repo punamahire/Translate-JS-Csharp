@@ -8,13 +8,14 @@ for (int i = 0; i < 10; i++)
     Die die1 = Roll();
     Die die2 = Roll();
 
-    string message = $"{die1} + {die2} == {die1.Value + die2.Value}";
+    string message = $"{die1} + {die2} = {die1.Value + die2.Value}";
     if (die1.Value == die2.Value)
     {
         message += " DOUBLES!";
     }
 
-    Console.WriteLine(message);
+    Console.WriteLine(mes
+    sage);
 }
 
 
